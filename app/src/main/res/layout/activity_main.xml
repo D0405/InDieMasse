@@ -4,50 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="30dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="55dp">
 
     <Button
         android:id="@+id/trainingBtn"
-        android:layout_width="0dp"
+        android:layout_width="324dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="8dp"
         android:text="Neues Training"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.387" />
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="191dp" />
 
     <Button
         android:id="@+id/calenderBtn"
-        android:layout_width="0dp"
+        android:layout_width="324dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="8dp"
         android:text="Kalender"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/trainingBtn"
-        app:layout_constraintVertical_bias="0.063" />
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="262dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
         android:text="In die Masse Bruder"
         android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="60dp"
         tools:layout_editor_absoluteY="33dp" />
 </android.support.constraint.ConstraintLayout>
