@@ -27,7 +27,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sinan G ist echter G"
+        android:text="Sinan G ist echter G!"
         android:textSize="30sp"
         tools:layout_editor_absoluteX="60dp"
         tools:layout_editor_absoluteY="33dp" />
