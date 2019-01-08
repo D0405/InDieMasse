@@ -11,7 +11,7 @@
         android:id="@+id/trainingBtn"
         android:layout_width="324dp"
         android:layout_height="wrap_content"
-        android:text="Neues Training"
+        android:text="Neues Training starten"
         tools:layout_editor_absoluteX="30dp"
         tools:layout_editor_absoluteY="191dp" />
 
