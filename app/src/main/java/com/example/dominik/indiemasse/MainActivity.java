@@ -5,25 +5,27 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button newTraining;
-    private Button calender;
+    private RelativeLayout newTraining;
+    private RelativeLayout calender;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        newTraining = (Button)findViewById(R.id.trainingBtn);
-        calender = (Button)findViewById(R.id.calenderBtn);
+       // newTraining = (RelativeLayout) findViewById(R.id.trainingBtn);
+       // calender = (RelativeLayout) findViewById(R.id.calenderBtn);
 
 
 
 
-        newTraining.setOnClickListener(new View.OnClickListener() {
+        /*newTraining.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, NewTraining.class ));
@@ -35,6 +37,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, Calender.class ));
             }
-        });
+        });*/
     }
 }
