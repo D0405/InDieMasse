@@ -19,13 +19,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       // newTraining = (RelativeLayout) findViewById(R.id.trainingBtn);
-       // calender = (RelativeLayout) findViewById(R.id.calenderBtn);
+       newTraining = (RelativeLayout) findViewById(R.id.trainingBtn);
+       calender = (RelativeLayout) findViewById(R.id.calenderBtn);
 
 
 
 
-        /*newTraining.setOnClickListener(new View.OnClickListener() {
+        newTraining.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, NewTraining.class ));
@@ -37,6 +37,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, Calender.class ));
             }
-        });*/
+        });
     }
 }
